@@ -1,6 +1,10 @@
-﻿namespace CitiesManager.WebAPI.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace CitiesManager.WebAPI.Controllers
 {
-    public class CustomControllerBase
+    [Route("api/[controller]")]
+    [ApiController]
+    public class CustomControllerBase : ControllerBase
     {
     }
 }
