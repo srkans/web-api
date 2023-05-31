@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "snQH6l4VE0cZwnSz9Fo5QLe3EFeB3Z+fVRcJPKQ7bQ07vJc84YSmAD3W1ZhvT5+4Mp+O61RHmbdBo7E5w2kK3A==",
+  "dgSpecHash": "efOpF2UwW5mOTPX5Wag0Tpvh6dX1awnkSGUbij+dh5Kh40NRP5wQke4FLKi0oqNQtvi8cBZJhlLiknp2EZMW4w==",
   "success": true,
   "projectFilePath": "F:\\web-api\\CitiesManager.WebAPI\\CitiesManager.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\serka\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\serka\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\serka\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\serka\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
+    "C:\\Users\\serka\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.1.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.1.0.nupkg.sha512",
     "C:\\Users\\serka\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "C:\\Users\\serka\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "C:\\Users\\serka\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

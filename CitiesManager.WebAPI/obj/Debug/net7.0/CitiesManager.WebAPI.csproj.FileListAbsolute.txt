@@ -345,3 +345,5 @@ F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerG
 F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 F:\web-api\CitiesManager.WebAPI\obj\Debug\net7.0\CitiesManager.WebAPI.MvcApplicationPartsAssemblyInfo.cs
 F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\api.xml
+F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
