@@ -46,9 +46,9 @@ builder.Services.AddVersionedApiExplorer(options =>
 
 builder.Services.AddCors(options =>
 {
-    options.AddDefaultPolicy(builder =>
+    options.AddDefaultPolicy(policyBuilder =>
     {
-        builder.WithOrigins("http://localhost:4200");//angular app'e izin veriyoruz response'u gorebilmesi icin
+        policyBuilder.WithOrigins(builder.Configuration.GetSection("AllowedOrigins").Get<string[]>());
     });
 });
 
