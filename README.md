@@ -1,4 +1,4 @@
 # web-api
 ASP.Net Core WebAPI
 
-Open API, Swagger
+Open API, Swagger, Angular, CORS
