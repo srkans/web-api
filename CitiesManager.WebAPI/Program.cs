@@ -52,6 +52,13 @@ builder.Services.AddCors(options =>
                       WithHeaders("Authorization", "origin", "accept", "content-type").
                       WithMethods("GET", "POST", "PUT", "DELETE");
     });
+
+    options.AddPolicy("4100Client", policyBuilder =>
+    {
+        policyBuilder.WithOrigins(builder.Configuration.GetSection("AllowedOrigins2").Get<string[]>()).
+                      WithHeaders("Authorization", "origin", "accept").
+                      WithMethods("GET");
+    });
 });
 
 
