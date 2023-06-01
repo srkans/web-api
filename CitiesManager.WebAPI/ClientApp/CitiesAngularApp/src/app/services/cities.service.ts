@@ -3,7 +3,7 @@ import { City } from "../models/city";
 import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { Observable } from "rxjs";
 
-const API_BASE_URL: string = "https://localhost:7209/api/";
+const API_BASE_URL: string = "https://localhost:7221/api/";
 
 @Injectable({
   providedIn: 'root'
@@ -33,5 +33,12 @@ export class CitiesService {
     headers = headers.append("Authorization", "Bearer mytoken");
 
     return this.httpClient.put<string>(`${API_BASE_URL}v1/cities/${city.cityID}`, city, { headers: headers })
+  }
+
+  public deleteCity(cityID: string | null): Observable<string> {
+    let headers = new HttpHeaders();
+    headers = headers.append("Authorization", "Bearer mytoken");
+
+    return this.httpClient.delete<string>(`${API_BASE_URL}v1/cities/${cityID}`, { headers: headers })
   }
 }

@@ -1,0 +1,15 @@
+F:\web-api\CitiesManager.Infrastructure\bin\Debug\net7.0\CitiesManager.Infrastructure.deps.json
+F:\web-api\CitiesManager.Infrastructure\bin\Debug\net7.0\CitiesManager.Infrastructure.dll
+F:\web-api\CitiesManager.Infrastructure\bin\Debug\net7.0\CitiesManager.Infrastructure.pdb
+F:\web-api\CitiesManager.Infrastructure\bin\Debug\net7.0\CitiesManager.Core.dll
+F:\web-api\CitiesManager.Infrastructure\bin\Debug\net7.0\CitiesManager.Core.pdb
+F:\web-api\CitiesManager.Infrastructure\obj\Debug\net7.0\CitiesManager.Infrastructure.csproj.AssemblyReference.cache
+F:\web-api\CitiesManager.Infrastructure\obj\Debug\net7.0\CitiesManager.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\web-api\CitiesManager.Infrastructure\obj\Debug\net7.0\CitiesManager.Infrastructure.AssemblyInfoInputs.cache
+F:\web-api\CitiesManager.Infrastructure\obj\Debug\net7.0\CitiesManager.Infrastructure.AssemblyInfo.cs
+F:\web-api\CitiesManager.Infrastructure\obj\Debug\net7.0\CitiesManager.Infrastructure.csproj.CoreCompileInputs.cache
+F:\web-api\CitiesManager.Infrastructure\obj\Debug\net7.0\CitiesManager.Infrastructure.csproj.CopyComplete
+F:\web-api\CitiesManager.Infrastructure\obj\Debug\net7.0\CitiesManager.Infrastructure.dll
+F:\web-api\CitiesManager.Infrastructure\obj\Debug\net7.0\refint\CitiesManager.Infrastructure.dll
+F:\web-api\CitiesManager.Infrastructure\obj\Debug\net7.0\CitiesManager.Infrastructure.pdb
+F:\web-api\CitiesManager.Infrastructure\obj\Debug\net7.0\ref\CitiesManager.Infrastructure.dll

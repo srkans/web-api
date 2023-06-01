@@ -18,7 +18,7 @@ export class CitiesComponent {
 
   constructor(private citiesService: CitiesService) {
     this.postCityForm = new FormGroup({
-      cityName: new FormControl(null, [Validators.required])
+      cityName: new FormControl(null, [ Validators.required ])
     });
 
     this.putCityForm = new FormGroup({
@@ -26,7 +26,7 @@ export class CitiesComponent {
     });
   }
 
-  get putCityFormArray(): FormArray {
+  get putCityFormArray() : FormArray {
     return this.putCityForm.get("cities") as FormArray;
   }
 
@@ -74,7 +74,13 @@ export class CitiesComponent {
         console.log(response);
 
         //this.loadCities();
+
+        this.putCityFormArray.push(new FormGroup({
+          cityID: new FormControl(response.cityID, [Validators.required]),
+          cityName: new FormControl({ value: response.cityName, disabled: true }, [Validators.required]),
+        }))
         this.cities.push(new City(response.cityID, response.cityName));
+
 
         this.postCityForm.reset();
         this.isPostCityFormSubmitted = false;
@@ -89,7 +95,7 @@ export class CitiesComponent {
   }
 
   //Executes when the clicks on 'Edit' button the for the particular city
-  editClicked(city: City): void {
+  editClicked(city: City) : void {
     this.editCityID = city.cityID;
   }
 
@@ -109,7 +115,26 @@ export class CitiesComponent {
         console.log(error);
       },
 
-      complete: () => { },
+      complete: () => {},
     });
+  }
+
+  deleteClicked(city: City, i: number) : void {
+    if (confirm(`Are you sure to delete this city: ${city.cityName}?`)) {
+      this.citiesService.deleteCity(city.cityID).subscribe({
+        next: (response: string) => {
+          console.log(response);
+
+          this.putCityFormArray.removeAt(i);
+          this.cities.splice(i, 1);
+        },
+
+        error: (error: any) => {
+          console.log(error);
+        },
+
+        complete: () => { },
+      })
+    }
   }
 }
