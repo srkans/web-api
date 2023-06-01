@@ -14,6 +14,6 @@ export class AccountService {
   constructor(private httpClient: HttpClient) { }
 
   public postRegister(registerUser: RegisterUser): Observable<RegisterUser> {
-    return this.httpClient.post<RegisterUser>(`${API_BASE_URL}/register`, registerUser);
+    return this.httpClient.post<RegisterUser>(`${API_BASE_URL}register`, registerUser);
   }
 }

@@ -294,3 +294,5 @@ F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.E
 F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
 F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
 F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
