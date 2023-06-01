@@ -31,7 +31,7 @@ builder.Services.AddEndpointsApiExplorer(); // generates description for all end
 
 builder.Services.AddSwaggerGen(options =>
 {
-    options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, "api.xml"));
+    options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, "api2.xml"));
 
     options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo() { Title = "Cities Web API", Version = "1.0" });
 

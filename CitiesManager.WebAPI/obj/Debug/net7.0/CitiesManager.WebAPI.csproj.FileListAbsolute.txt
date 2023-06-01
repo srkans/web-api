@@ -344,7 +344,6 @@ F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.
 F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 F:\web-api\CitiesManager.WebAPI\obj\Debug\net7.0\CitiesManager.WebAPI.MvcApplicationPartsAssemblyInfo.cs
-F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\api.xml
 F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.dll
 F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
 F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\ClientApp\CitiesAngularApp\angular.json
@@ -353,3 +352,4 @@ F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\ClientApp\CitiesAngularApp\pack
 F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\ClientApp\CitiesAngularApp\tsconfig.app.json
 F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\ClientApp\CitiesAngularApp\tsconfig.json
 F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\ClientApp\CitiesAngularApp\tsconfig.spec.json
+F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\api2.xml

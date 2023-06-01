@@ -28,46 +28,41 @@ namespace CitiesManager.WebAPI.Controllers.v1
         [HttpGet]
         public async Task<ActionResult<IEnumerable<City>>> GetCities()
         {
-            if (_context.Cities == null)
-            {
-                return NotFound();
-            }
-            return await _context.Cities.ToListAsync();
+            var cities = await _context.Cities
+             .OrderBy(temp => temp.CityName).ToListAsync();
+            return cities;
         }
 
         // GET: api/Cities/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<City>> GetCity(Guid id)
+        [HttpGet("{cityID}")]
+        public async Task<ActionResult<City>> GetCity(Guid cityID)
         {
-            if (_context.Cities == null)
-            {
-                return NotFound();
-            }
-            var city = await _context.Cities.FindAsync(id);
+            var city = await _context.Cities.FirstOrDefaultAsync(temp => temp.CityId == cityID);
 
             if (city == null)
             {
-                return Problem(detail: "Invalid CityId", statusCode: 400, title: "City Search");
+                return Problem(detail: "Invalid CityID", statusCode: 400, title: "City Search");
+                //return BadRequest();
             }
 
             return city;
         }
 
+
         // PUT: api/Cities/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutCity(Guid id, [Bind(nameof(City.CityId), nameof(City.CityName))] City city)
+        [HttpPut("{cityID}")]
+        public async Task<IActionResult> PutCity(Guid cityID, [Bind(nameof(City.CityId), nameof(City.CityName))] City city)
         {
-            if (id != city.CityId)
+            if (cityID != city.CityId)
             {
-                return BadRequest();
+                return BadRequest(); //HTTP 400
             }
 
-            var existingCity = await _context.Cities.FindAsync(id);
-
+            var existingCity = await _context.Cities.FindAsync(cityID);
             if (existingCity == null)
             {
-                return NotFound();
+                return NotFound(); //HTTP 404
             }
 
             existingCity.CityName = city.CityName;
@@ -78,7 +73,7 @@ namespace CitiesManager.WebAPI.Controllers.v1
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!CityExists(id))
+                if (!CityExists(cityID))
                 {
                     return NotFound();
                 }
@@ -103,7 +98,7 @@ namespace CitiesManager.WebAPI.Controllers.v1
             _context.Cities.Add(city);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetCity", new { id = city.CityId }, city);
+            return CreatedAtAction("GetCity", new { cityID = city.CityId }, city);
         }
 
         // DELETE: api/Cities/5
