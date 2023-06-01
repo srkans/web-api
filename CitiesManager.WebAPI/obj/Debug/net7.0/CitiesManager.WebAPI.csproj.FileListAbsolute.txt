@@ -287,3 +287,10 @@ F:\web-api\CitiesManager.WebAPI\obj\Debug\net7.0\refint\CitiesManager.WebAPI.dll
 F:\web-api\CitiesManager.WebAPI\obj\Debug\net7.0\CitiesManager.WebAPI.pdb
 F:\web-api\CitiesManager.WebAPI\obj\Debug\net7.0\CitiesManager.WebAPI.genruntimeconfig.cache
 F:\web-api\CitiesManager.WebAPI\obj\Debug\net7.0\ref\CitiesManager.WebAPI.dll
+F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\ClientApp\package-lock.json
+F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
