@@ -296,3 +296,4 @@ F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.S
 F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
 F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+F:\web-api\CitiesManager.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

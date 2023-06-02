@@ -1,4 +1,6 @@
 using CitiesManager.Core.Identity;
+using CitiesManager.Core.ServiceContracts;
+using CitiesManager.Core.Services;
 using CitiesManager.Infrastructure.DatabaseContext;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -78,6 +80,9 @@ builder.Services.AddCors(options => {
   ;
  });
 });
+
+//Jwt Service
+builder.Services.AddTransient<IJwtService, JwtService>();
 
 //Identity
 
