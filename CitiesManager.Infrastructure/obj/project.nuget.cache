@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iis8cUpl2yLdWBuWoQWumTVi/2cF36+Zkv1M74iKYnVN3lSX4CUYdQRj8MJI9kwgYAxAWmvEm5uKgudhr1r6jw==",
+  "dgSpecHash": "phQydC/Yi9RpaMcnhsw/CsAw15F8XJyP2ezngRv2SFggXkEbXdJ/n56+SxNOK8K2rcmaHB03okekpBMHVG/5DA==",
   "success": true,
   "projectFilePath": "F:\\web-api\\CitiesManager.Infrastructure\\CitiesManager.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\serka\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\serka\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\serka\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\serka\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.4\\microsoft.aspnetcore.authentication.jwtbearer.7.0.4.nupkg.sha512",
     "C:\\Users\\serka\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Users\\serka\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
     "C:\\Users\\serka\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.4\\microsoft.aspnetcore.cryptography.internal.7.0.4.nupkg.sha512",
