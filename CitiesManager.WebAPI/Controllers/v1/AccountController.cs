@@ -68,6 +68,10 @@ namespace CitiesManager.WebAPI.Controllers.v1
 
                 var authenticationResponse = _jwtService.CreateJwtToken(user);
 
+                user.RefreshToken = authenticationResponse.RefreshToken;
+                user.RefreshTokenExpirationDateTime = authenticationResponse.RefreshTokenExpirationDateTime;
+                await _userManager.UpdateAsync(user);
+
                 return Ok(authenticationResponse);
             }
             else
@@ -128,6 +132,10 @@ namespace CitiesManager.WebAPI.Controllers.v1
                     await _signInManager.SignInAsync(user, isPersistent: false);
 
                     var authenticationResponse = _jwtService.CreateJwtToken(user);
+
+                    user.RefreshToken = authenticationResponse.RefreshToken;
+                    user.RefreshTokenExpirationDateTime = authenticationResponse.RefreshTokenExpirationDateTime;
+                    await _userManager.UpdateAsync(user);
 
                     return Ok(authenticationResponse);
                 }

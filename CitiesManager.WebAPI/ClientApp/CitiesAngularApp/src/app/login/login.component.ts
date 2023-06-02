@@ -39,6 +39,7 @@ export class LoginComponent {
         this.accountService.currentUserName = response.email;
 
         localStorage["token"] = response.token;
+        localStorage["refreshtoken"] = response.refreshToken;
 
         this.router.navigate(['/cities']);
 
